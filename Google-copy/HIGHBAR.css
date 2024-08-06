@@ -1,0 +1,26 @@
+#HIGHBAR {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 30px;
+    font-size: 15px;
+    align-items: center;
+    
+    width: 98%;
+}
+#HIGHBAR span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#HIGHBAR img {
+    width: 20px;
+    height: 20px;
+}
+#HIGHBAR img:hover {
+    background-color: rgba(240, 255, 255, 0.242);
+    cursor: pointer;
+}
+#HIGHBAR #MANDONG {
+    width: 35px;
+    height: 35px;
+}

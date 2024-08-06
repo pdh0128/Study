@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+    <head>
+        <script src = "mains.js"></script>
+        
+        <style>
+            @font-face {
+            font-family: 'Ownglyph_UNZ-Rg';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/Ownglyph_UNZ-Rg.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+}
+            @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+            #container {
+                display: flex;
+                width: 1200px;
+                height: 760px;
+                margin : auto;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 37px;
+                flex-shrink: 0;
+                background: linear-gradient(
+                    136deg,
+                    rgb(68, 132, 206),
+                    rgb(255, 0, 0),
+                    rgb(0, 0, 0),
+                    rgb(155, 89, 182),
+                    rgb(255, 127, 127),
+                    rgb(236, 240, 241)
+                ) 0% 0% / 1200% 1200%;
+            }
+
+            button {
+                display: flex;
+                width: 541px;
+                height: 163px;
+                justify-content: center;
+                align-items: center;
+                /* font-family: "Playwrite NG Modern", cursive; */
+                font-family: "Ownglyph_UNZ-Rg";
+                font-size : 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "container">
+            <button onclick = "start()">start</button>
+            <button onclick = "profile()">profile</button>
+            <button onclick = "help()">help</button>
+        </div>
+    </body>
+</html>

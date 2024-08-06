@@ -1,0 +1,73 @@
+.menu {
+    background-color: #343131; 
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    z-index: 1000;
+    right : 6%;
+    top : 7%;
+    border-radius: 20px;
+    overflow: auto;
+    display : none;
+}
+
+.menu div {
+    color : white;
+}
+.menu img {
+    margin-top: 12px;
+    width: 50px;
+    height: 50px;
+}
+.menu .image-container {
+    border-radius: 20px;
+    width: 108px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.menu .image-container:hover {
+    background-color:  #454141;;
+}
+.menu-container {
+    margin-top: 20px;
+    margin-left: 18px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.image-container div {
+    margin-top: 5px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image-container div:hover {
+    white-space: wrap;
+}
+.menu .menu-devops {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    color : #C2E7FE;
+    border : 3px solid #C2E7FE;
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    cursor: pointer;
+    margin-left: 100px;
+    font-size : 15px;
+}
+.menu .menu-devops:hover {
+    background-color:  #454141;
+}

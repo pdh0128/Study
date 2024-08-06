@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <script src = 'mains.js'></script>
+    <style>
+        @font-face {
+            font-family: 'Ownglyph_UNZ-Rg';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/Ownglyph_UNZ-Rg.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            background-color : black;
+            position : fixed;
+            padding-left: 230px;
+        }
+        button {
+            background-color : rgb(255, 255, 255);
+            color : black;
+            margin-top : 20px;
+            width: 500px;
+            height: 200px;
+            font-family: 'Ownglyph_UNZ-Rg';
+            font-size : 50px;
+            border-radius: 5%;
+        }
+        #container {
+            display : flex;
+            margin : auto;
+            width : 1000px;
+            height : 600px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Ownglyph_UNZ-Rg';
+            font-size : 50px;
+        }
+        h1 {
+            color : white;
+        }
+    </style>
+</head>
+<body>
+    <div id = "container">
+        <h1>game over</h1>
+        <button onclick = "start()">Again</button>
+        <button onclick = "location.replace('main.html')">Main</button>
+    </div>
+</body>
+</html>
